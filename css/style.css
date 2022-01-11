@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+}
+body {
+    background-color: #4A40EE;
+}
+.navbar {
+    display: flex;
+    margin-top: 59px;
+}
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+/* .nav__brand img{
+    margin-left: 10px;
+} */
+.nav__links nav {
+    display: flex;
+}
+.nav__links li {
+    list-style-type: none;
+    padding-left: 39px;
+}
+.nav__links a {
+    text-decoration: none;
+    color: #fff;
+    opacity: .5;
+    font-family: 'Muller';
+    font-weight: normal;
+}
+.nav__modal button {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 39px;
+    padding: 10px 30px;
+    color: #fff;
+    margin-left: 87px;
+}
+.nav__line hr {
+    margin-top: 50px;
+    opacity: .2;
+}
+.info__block {
+    margin-left: 130px;
+    margin-top: 106px;
+    height: 100vh;
+}
+.pre__info {
+    display: flex;
+    width: 30%;
+    margin-bottom: 39px;
+}
+.pre__info p {
+    color: #fff;
+    font-family: 'Muller';
+    font-weight: 500;
+    line-height: 36px;
+    font-size: 20px;
+    padding-top: 11px;
+    margin-left: 20px;
+}
+.info__intro h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 70px;
+}
+.info__card {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.info__card p {
+    font-size: 26px;
+    line-height: 36px;
+    font-family: 'Muller';
+    font-weight: 400;
+    margin-top: 70px;
+}
+.info__card img {
+    height: 251px;
+}
+.info__btn button{
+    padding: 24px 43px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Muller';
+    font-weight: 500;
+}
+
+.after__course {
+    max-width: 100%;
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+}
+.course__container {
+    margin-left: 130px;
+    padding-top: 109px;
+}
+/* .course__intro {
+    
+    
+} */
+.course__intro h1 {
+    color: #403E5C;
+    font-family: 'Russo One';
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 70px;
+}
+.course__cards {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 62px;
+}
+.card {
+    height: 243px;
+    width: 270px;
+    padding: 11px;
+    border: 1px solid #4A40EE1A;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.card p {
+    font-family: 'Muller';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #2C2B37;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.card img {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.how__use {
+    max-width: 100%;
+    width: 100%;
+    height: 1377px;
+    background-color: #fff;
+    padding-left: 130px;
+}
+.use__intro h1 {
+    color: #403E5C;
+    font-family: 'Russo One';
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 70px;
+}
+.use__cards {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.use__card img {
+    margin-top: 119px;
+}
+.use__card h4, p {
+    font-family: 'Muller', 'Gilroy';
+}
+.use__card h4 {
+    margin-top: 54.4px;
+    font-family: 'Gilroy', sans-serif;
+    color: #2C2B37;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.use__card p {
+    margin-top: 14px;
+    color: #666576;
+    font-family: 'Muller', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.format__web {
+    max-width: 100%;
+    width: 100%;
+    height: 820px;
+    padding-top: 170px;
+}
+.web__intro {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.web_intro_left h1{
+    font-family: 'Russo One';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 70px;
+}
+.web__intro__right {
+    display: flex;
+    width: 50%;
+}
+.web__intro__right p {
+    font-family: 'Muller';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-left: 36px;
+    margin-top: 20px;
+}
+.web__cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.web__card {
+    width: 370px;
+    height: 197px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding-left: 43px;
+}
+.web__card h1 {
+    font-family: 'Russo One';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #4A40EE;
+    margin-top: 16px;
+}
+.web__card p {
+    font-family: 'Muller';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666576;
+    margin-top: 10px;
+}
+.web__reg-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 79px;
+}
+.web__reg-form button {
+    background-color: #CCFF00;
+    color: #000;
+    padding: 20px 52px;
+    border: none;
+    border-radius: 30px;
+    margin: 0 auto;
+    font-family: 'Muller';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+}
+.web__speakers {
+    max-width: 100%;
+    width: 100%;
+    height: 1576px;
+    background-color: #fff;
+}
+.program__web {
+    margin-left: 130px;
+}
+.program__intro {
+    padding-top: 146px;
+}
+.program__intro h1{
+    font-family: 'Russo One';
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #403E5C;
+}
+.program__tabel {
+    margin-top: 62px;
+}
+.program__tabel hr {
+    width: 1170px;
+}
+.program__tabel p {
+    font-family: 'Muller';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #2F2D41;
+    margin-top: 29.73px;
+    margin-bottom: 30.04px;
+}
+.speakers__intro {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.speakers___info {
+    display: flex;
+}
+.speakers__title h1 {
+    font-family: 'Russo One';
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #403E5C;
+}
+.speakers___info h1 {
+    font-family: 'Russo One';
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #4A40EE;
+    /* margin-left: 30px; */
+}
+.speakers___info p {
+    font-family: 'Muller';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #686868;
+    margin-left: 10px;
+}
+.speakers__cards {
+    margin-top: 83px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.info__prof h4{
+    font-family: 'Gilroy';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #2F2D41;
+    margin-top: 34px;
+}
+.info__prof p {
+    font-family: 'Muller';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666576;
+    margin-top: 13px;
+}
